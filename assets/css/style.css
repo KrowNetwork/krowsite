@@ -707,7 +707,7 @@ hr:last-child, .hr:last-child { margin-bottom: 0; }
 .site-header .scroll-down { color: #fff; font-size: 10px; display: inline-block; text-transform: uppercase; position: absolute; bottom: 120px; right: 20px; transform: rotate(-90deg); z-index: 5; }
 .site-header .scroll-down:after { position: absolute; content: ""; height: 1px; width: 40px; background: #fff; left: -52px; top: 50%; animation: upDown2 2s infinite; }
 
-@keyframes upDown2 { 0%, 20%, 50%, 80%, 
+@keyframes upDown2 { 0%, 20%, 50%, 80%,
 	100% { transform: translateX(0); }
   40% { transform: translateX(4px); }
   60% { transform: translateX(6px); } }
@@ -1068,7 +1068,7 @@ hr:last-child, .hr:last-child { margin-bottom: 0; }
 .io-azure .team-member { background: #1b30a4; }
 .team-member .team-photo { width: 160px; position: absolute; top: -50px; left: -38px; transition: all .5s ease; }
 .team-member .team-photo img { border-radius: 0; }
-.team-member .team-photo:before { position: absolute; bottom: 0; right: 0; height: 100%; width: 100%; content: ""; background-image: linear-gradient(to top left, rgba(41, 0, 117, 0.65) 0%, rgba(9, 109, 223, 0.65) 100%); transition: all .5s ease; }
+.team-member .team-photo:before { position: absolute; bottom: 0; right: 0; height: 100%; width: 100%; content: ""; /*background-image: linear-gradient(to top left, rgba(41, 0, 117, 0.65) 0%, rgba(9, 109, 223, 0.65) 100%); */transition: all .5s ease; }
 .team-member .team-photo:after { position: absolute; top: 24px; right: -33px; content: ""; height: 3px; width: 65px; background-image: -webkit- linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); background-image: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); transition: all .5s ease; }
 .team-member .team-photo .expand-trigger { position: absolute; top: 0; left: 0; width: 160px; height: 178px; }
 .team-member .team-photo:hover { top: -60px; }
