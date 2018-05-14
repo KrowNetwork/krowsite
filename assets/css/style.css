@@ -1447,5 +1447,7 @@ hr:last-child, .hr:last-child { margin-bottom: 0; }
 @media only screen and (min-width: 767px) and (max-width: 1024px) { .mask-ov:before, [class*=mask-ov]:before { background-size: 50%; } }
 @media only screen and (max-width: 767px) { .mask-ov, [class*=mask-ov] { transform: scale(0.5); transform-origin: right; }
   .mask-ov-left { transform-origin: left; } }
+
+.alert-info{background-color:#15bdfe;border-color:#15bdfe;color:#31708f}
 /* @v1.1.0 e */
 /** END */

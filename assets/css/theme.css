@@ -153,5 +153,6 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .form-message .input-field .input-line { border-bottom-color: #46bdf4; }
 
 .social li a:hover { background: #7a0fff; }
+.alert-info{background-color:##15bdfe;border-color:##15bdfe;color:#d1ecf1}.alert-info hr{border-top-color:#a6e1ec}
 
 /*! END */
